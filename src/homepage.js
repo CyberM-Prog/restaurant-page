@@ -12,14 +12,17 @@ export function showHome() {
     header.appendChild(buttons)
 
     const home = document.createElement("button")
+    home.classList.add("home")
     home.textContent = "HOME"
     buttons.appendChild(home)
 
     const menu = document.createElement("button")
+    menu.classList.add("menu")
     menu.textContent = "MENU"
     buttons.appendChild(menu)   
     
     const contact = document.createElement("button")
+    contact.classList.add("contact")
     contact.textContent = "CONTACT US"
     buttons.appendChild(contact)
 
