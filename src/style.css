@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
+
+* {
+    font-family: 'Sirin Stencil', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 12.5vh;
+    background-color:seagreen;
+    display: grid
+}
+
+.header > h1 {
+    font-size: 5rem;
+    align-self: center;
+    margin-left: 10vw;
+    color: whitesmoke;
+
+}
+
+.image {
+    height: 87.5vh;
+    background-image: url(./ruben-ramirez-xhKG01FN2uk-unsplash.jpg);
+    background-size: cover;
+    background-position-y: -250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.darkbg {
+    background-color: rgba(46, 139, 87, 0.6);
+    padding: 10px;
+    font-size: 1.25rem;
+    border-radius: 0.20rem;
+}
+
+
+
+
