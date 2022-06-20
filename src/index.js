@@ -1,2 +1,4 @@
 import "./style.css";
-import "./homepage"
+import * as homePage from "./homepage"
+
+homePage.showHome()

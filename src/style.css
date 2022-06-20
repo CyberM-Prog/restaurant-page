@@ -10,7 +10,8 @@
 .header {
     height: 12.5vh;
     background-color:seagreen;
-    display: grid
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .header > h1 {
@@ -18,7 +19,25 @@
     align-self: center;
     margin-left: 10vw;
     color: whitesmoke;
+    position: relative;
+    bottom: 5px;
 
+}
+
+.buttons {
+    justify-self: end;
+    align-self: center;
+    margin-right: 10vw;
+    display: flex;
+    gap: 2rem;
+}
+
+.buttons > button {
+    font-size: 2.5rem;
+    background-color: seagreen;
+    color: whitesmoke;
+    border-width: 0;
+    font-weight: 500;
 }
 
 .image {
