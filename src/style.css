@@ -72,6 +72,27 @@
     border-radius: 10px;
 }
 
+.contactimage {
+    height: 87.5vh;
+    background-image: url(./ruben-ramirez-xhKG01FN2uk-unsplash.jpg);
+    background-size: cover;
+    background-position-y: -250px;
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    justify-items: center;
+}
+
+.contactimage > div {
+    background-color: rgba(46, 139, 87, 0.6);
+    width: 35vw;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+
 .darkbg {
     background-color: rgba(46, 139, 87, 0.6);
     padding: 10px;
